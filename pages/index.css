@@ -16,10 +16,10 @@
 @import "../blocks/lead/__image/lead__image.css";
 @import "../blocks/lead/__caption/lead__caption.css";
 
-/* @import "../blocks/intro/intro.css";
+@import "../blocks/intro/intro.css";
 @import "../blocks/intro/__title/intro__title.css";
 @import "../blocks/intro/__text/intro__text.css";
 @import "../blocks/intro/__list/intro__list.css";
 @import "../blocks/intro/__item/intro__item.css";
-@import "../blocks/intro/__item-span/intro__item-span.css"; */
+@import "../blocks/intro/__item-num/intro__item-num.css";
 
