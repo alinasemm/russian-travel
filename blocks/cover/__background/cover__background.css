@@ -3,8 +3,9 @@
     position: absolute;
     width: 1024px;
     height: 640px;
-    background-image: url(../../../images/cover-trains.jpg);
+    background-image: url("../../../images/cover-trains.jpg");
     background-size: cover;
-    border: green 1px solid;
     z-index: 1;
+    left: 0;
+    top: 0;
 }
