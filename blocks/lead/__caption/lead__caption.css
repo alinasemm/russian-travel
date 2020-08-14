@@ -1,7 +1,7 @@
 .lead__caption {
     display: flex;
     position: absolute;
-    left: 0;
+    left: 48px;
     bottom: 0;
     font-family: Inter;
     font-style: normal;
