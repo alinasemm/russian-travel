@@ -23,3 +23,6 @@
 @import "../blocks/intro/__item/intro__item.css";
 @import "../blocks/intro/__item-num/intro__item-num.css";
 
+@import "../blocks/photo-grid/photo-grid.css";
+@import "../blocks/photo-grid/__item/photo-grid__item.css";
+
