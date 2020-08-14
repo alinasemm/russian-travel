@@ -1,17 +1,8 @@
 .footer__copyrite {
-display: flex;
-position: absolute;
-width: 186px;
-height: 16px;
-font-family: Inter;
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 16px;
-/* identical to box height, or 114% */
-text-align: right;
-color: #FFFFFF;
-margin: 0;
-bottom: 0;
-right: 0;
+    font-family: Inter;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height, or 114% */
+    color: #FFFFFF;
+    margin: 0;
 }
