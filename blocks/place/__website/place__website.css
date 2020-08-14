@@ -5,5 +5,5 @@
     grid-row-end: 1;
     width: 456px;
     height: 46px;
-    border: green 1px solid;
+    align-self: end;
 }
