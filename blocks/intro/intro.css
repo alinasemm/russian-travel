@@ -1,5 +1,10 @@
 .intro {
     margin-top: 92px;
-    padding-left: 48px;
-    padding-right: 48px;
+    margin-left: 4.68vw;
+}
+
+@media screen and (min-width: 1280px) {
+    .intro {
+        margin-left: calc((100vw - 984px) / 2);
+    }
 }

@@ -1,0 +1,14 @@
+.lead__map-image {
+    position: absolute;
+    bottom: 246.9px;
+    left: 2.14vw;
+    width: 86.32vw;
+}
+
+@media screen and (min-width: 1280px) {
+    .lead__map-image {
+        bottom: 261.8px;
+        left: 23.27px;
+        width: 937.09px;
+    }
+}

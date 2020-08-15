@@ -3,12 +3,15 @@
     flex-direction: column;
     align-items: center;
     position: relative;
-    width: 928px;
-    margin: 48px auto 0 auto;
+
+    width: 90.64vw;
+    margin: 48px 4.68vw 0 4.68vw;
 }
 
 @media screen and (min-width: 1280px) {
     .lead {
-        width: 984px; 
+        width: 984px;
+        margin-left: calc((100vw - 984px) / 2);
+        margin-right: calc((100vw - 984px) / 2);
     }
 }
