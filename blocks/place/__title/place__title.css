@@ -1,4 +1,6 @@
 .place__title {
+    display: flex;
+    align-items: flex-end;
     grid-column-start: 1;
     grid-column-end: 1;
     grid-row-start: 1;
