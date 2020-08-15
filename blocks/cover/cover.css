@@ -7,4 +7,9 @@
     width: 100%;
     height: 640px;
     margin-top: 92px;
+    text-decoration: none;
+}
+
+.cover:hover .cover__overlay {
+    opacity: 0.8;
 }
