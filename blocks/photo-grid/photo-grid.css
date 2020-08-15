@@ -1,12 +1,18 @@
 .photo-grid {
     display: grid;
-    min-width: 928px;
-    min-height: 942px;
+    width: 928px;
     box-sizing: border-box;
     grid-template-columns: repeat(3, 300px);
     grid-template-rows: repeat(4, 225px);
     gap: 14px;
-    margin-top: 92px;
-    padding-left: 48px;
-    padding-right: 48px;
+    margin: 92px auto 0 auto;
+}
+
+@media screen and (min-width: 1280px) {
+    .photo-grid {
+        grid-template-columns: repeat(4, 284px);
+        grid-template-rows: repeat(3, 213px);
+        gap: 16px;
+        width: 1184px;
+    }
 }
