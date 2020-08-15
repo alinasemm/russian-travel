@@ -1,15 +1,13 @@
 .place__link {
-width: 456px;
-height: 22px;
-font-family: Inter;
-font-style: normal;
-font-weight: normal;
-font-size: 18px;
-line-height: 22px;
-/* identical to box height, or 122% */
-text-decoration-line: underline;
-color: #FFFFFF;
-transition: opacity 150ms;
+    width: 456px;
+    height: 22px;
+    font-family: Inter;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height, or 122% */
+    text-decoration-line: underline;
+    color: #FFFFFF;
+    transition: opacity 150ms;
 }
 
 .place__link:hover {
