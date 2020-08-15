@@ -10,4 +10,6 @@
     text-align: center;
     color: #FFFFFF;
     z-index: 2;
+    margin: 0;
+    margin-bottom: 32px;
 }
