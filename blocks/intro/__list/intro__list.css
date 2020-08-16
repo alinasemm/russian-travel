@@ -1,6 +1,5 @@
 .intro__list {
-    width: 690px;
-    height: 90px;
+    msx-width: 690px;
     font-family: Inter;
     font-weight: bold;
     font-size: 12px;
