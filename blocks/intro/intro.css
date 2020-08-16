@@ -8,3 +8,10 @@
         margin-left: calc((100vw - 984px) / 2);
     }
 }
+
+@media screen and (max-width: 768px) {
+    .intro {
+        margin-left: 3.125vw;
+        margin-top: 88px;
+    }
+}
