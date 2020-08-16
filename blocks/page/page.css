@@ -1,7 +1,9 @@
 .page {
     padding-top: 28px;
     min-width: 320px;
-    background: #2A2C2F; 
+    background: #2A2C2F;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 @media screen and (max-width: 680px) {

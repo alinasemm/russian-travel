@@ -10,6 +10,7 @@
     /* or 106% */
     color: #FFFFFF;
     margin: 0;
+    text-rendering: optimizeLegibility;
 }
 
 
