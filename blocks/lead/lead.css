@@ -1,11 +1,13 @@
 .lead {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: relative;
-
     width: 90.64vw;
     margin: 48px 4.68vw 0 4.68vw;
+    
+    display: grid;
+    grid-template-areas: "title" "subtitle" "image" "caption";
+    grid-template-columns: minmax(768px, 984px);
+    grid-template-rows: auto;
+    justify-content: center;
+    justify-items: center;
 }
 
 @media screen and (min-width: 1280px) {

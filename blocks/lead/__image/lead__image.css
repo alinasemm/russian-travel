@@ -1,4 +1,6 @@
 .lead__image {
+    grid-area: image;
+    
     width: 100%;
     object-fit: cover;
 }
