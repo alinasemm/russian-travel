@@ -12,6 +12,7 @@
 
     background-image: url("../../images/cover-trains.png");
     background-position: center;
+    background-size: cover;
 }
 
 .cover::after {
@@ -36,3 +37,11 @@
        margin-top: 88px;
     }
 }
+
+@media screen and (max-width: 680px) {
+    .cover {
+        height: 200px; 
+        margin-top: 64px;
+    }
+}
+

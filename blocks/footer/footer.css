@@ -9,8 +9,16 @@
 
 @media screen and (max-width: 768px) {
     .footer {
-       margin-top: 88px;
+        margin-top: 88px;
         padding-right: 24px;
         padding-left: 24px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .footer {
+        margin-top: 64px;
+        flex-direction: column;
+        padding-left: 5vw;
     }
 }

@@ -20,3 +20,12 @@
         max-width: 340px;
     }
 }
+
+
+@media screen and (max-width: 680px) {
+    .place__title {
+        width: 90%;
+        font-size: 32px;
+        line-height: 35px;
+    }
+}

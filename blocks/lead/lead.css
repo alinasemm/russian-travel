@@ -4,7 +4,7 @@
     
     display: grid;
     grid-template-areas: "title" "subtitle" "image" "caption";
-    grid-template-columns: minmax(768px, 984px);
+    grid-template-columns: minmax(320px, 984px);
     grid-template-rows: auto;
     justify-content: center;
     justify-items: center;
