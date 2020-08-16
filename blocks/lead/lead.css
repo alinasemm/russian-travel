@@ -15,3 +15,11 @@
         margin-right: calc((100vw - 984px) / 2);
     }
 }
+
+@media screen and (max-width: 768px) {
+    .lead {
+        margin-left: 0;
+        margin-right: 0;
+        width: 100vw;
+    }
+}
