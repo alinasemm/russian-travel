@@ -1,6 +1,6 @@
 .lead {
-    width: 90.64vw;
-    margin: 48px 4.68vw 0 4.68vw;
+    width: 90.64%;
+    margin: 48px 4.68% 0 4.68%;
     
     display: grid;
     grid-template-areas: "title" "subtitle" "image" "caption";
@@ -13,8 +13,8 @@
 @media screen and (min-width: 1280px) {
     .lead {
         width: 984px;
-        margin-left: calc((100vw - 984px) / 2);
-        margin-right: calc((100vw - 984px) / 2);
+        margin-left: calc((100% - 984px) / 2);
+        margin-right: calc((100% - 984px) / 2);
     }
 }
 
@@ -22,6 +22,6 @@
     .lead {
         margin-left: 0;
         margin-right: 0;
-        width: 100vw;
+        width: 100%;
     }
 }
