@@ -2,8 +2,9 @@
     font-family: Inter, sans-serif;
     font-size: 12px;
     line-height: 12px;
+    font-weight: normal;
     /* identical to box height, or 100% */
     letter-spacing: 0.2em;
     color: #AAAAAA;
-    margin-bottom: 12px;
+    margin: 0 0 12px 0;
 }

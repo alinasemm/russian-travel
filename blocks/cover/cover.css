@@ -1,9 +1,5 @@
 .cover {
     display: flex;
-    position: relative;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     width: 100%;
     max-width: 1184px;
     height: 640px;
@@ -13,22 +9,6 @@
     background-image: url("../../images/cover-trains.png");
     background-position: center;
     background-size: cover;
-}
-
-.cover::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background-color: #2A2C2F;
-    opacity: 0.3;
-    transition: opacity 150ms;
-}
-
-.cover:hover::after {
-    opacity: 0.8;
 }
 
 @media screen and (max-width: 768px) {
