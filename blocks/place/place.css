@@ -1,9 +1,9 @@
 .place {
     display: grid;
     grid-template-areas:
-        ". title website ."
-        ". image text .";
-    grid-template-columns: 48px minmax(340px, 460px) minmax(352px, 484px) 48px;
+        "title website"
+        "image text";
+    grid-template-columns: minmax(340px, 460px) minmax(352px, 484px);
     grid-template-rows: 1fr auto;
     justify-content: center;
     column-gap: 32px;
@@ -21,7 +21,7 @@
 
 @media screen and (max-width: 768px) {
     .place {
-        grid-template-columns: 24px minmax(340px, 460px) minmax(352px, 484px) 24px;
+        grid-template-columns:minmax(340px, 460px) minmax(352px, 484px);
         column-gap: 28px;
         margin-top: 72px;
     }
