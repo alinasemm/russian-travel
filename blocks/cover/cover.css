@@ -11,6 +11,12 @@
     background-size: cover;
 }
 
+@media screen and (min-width: 1280px) {
+    .cover {
+       min-height: 740px;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .cover {
        min-height: 480px; 
